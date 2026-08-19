@@ -5,7 +5,7 @@
 
 ## IDE / editor
 .vs/
-.idea/
+.idea/*
 *.user
 *.suo
 *.userosscache
@@ -18,11 +18,6 @@
 *.trx
 coverage*.xml
 coverage*.json
-
-## Local SQLite / data
-*.db
-*.db-shm
-*.db-wal
 
 ## OS
 .DS_Store
