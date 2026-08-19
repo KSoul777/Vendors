@@ -1,0 +1,17 @@
+<Project>
+
+  <!--
+    Shared build settings for the Vendors.* projects. The two provided mock loaders
+    (FileLoader, SqlServerLoader) now live under src/ but must not be modified, so they
+    are excluded from these strict, nullable-aware settings and build with SDK defaults
+    (netstandard2.0, nullable disabled).
+  -->
+  <PropertyGroup Condition="'$(MSBuildProjectName)' != 'FileLoader' And '$(MSBuildProjectName)' != 'SqlServerLoader'">
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>

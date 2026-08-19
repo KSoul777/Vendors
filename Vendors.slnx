@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FileLoader/FileLoader.csproj" />
+    <Project Path="src/SqlServerLoader/SqlServerLoader.csproj" />
+    <Project Path="src/Vendors.Api/Vendors.Api.csproj" />
+    <Project Path="src/Vendors.Application/Vendors.Application.csproj" />
+    <Project Path="src/Vendors.Domain/Vendors.Domain.csproj" />
+    <Project Path="src/Vendors.Infrastructure/Vendors.Infrastructure.csproj" />
+    <Project Path="src/Vendors.Presentation/Vendors.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Vendors.IntegrationTests/Vendors.IntegrationTests.csproj" />
+    <Project Path="tests/Vendors.UnitTests/Vendors.UnitTests.csproj" />
+  </Folder>
+</Solution>

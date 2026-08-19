@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vendors.Application\Vendors.Application.csproj" />
+    <ProjectReference Include="..\Vendors.Infrastructure\Vendors.Infrastructure.csproj" />
+    <ProjectReference Include="..\Vendors.Presentation\Vendors.Presentation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+</Project>
